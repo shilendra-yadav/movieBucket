@@ -1,4 +1,4 @@
-const API_KEY= process.env.API_KEY;
+const API_KEY= process.env.REACT_APP_API_KEY;
 
 export const TRENDING_API = (page) => `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}&page=${page}`;
 export const CREDITS_API = (media_type, id) =>`https://api.themoviedb.org/3/${media_type}/${id}/credits?api_key=${API_KEY}&language=en-US`;
