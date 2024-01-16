@@ -11,7 +11,7 @@ import './App.css';
 const Movies = React.lazy(() => import('./Pages/Movies/Movies'));
 
 function App () {
-    console.log('App', process.env.REACT_APP_API_KEY);
+
     return (
         <BrowserRouter>
             <Header />
